@@ -15,6 +15,7 @@ public class Main {
         System.out.print("Enter b: ");
         int b = scn.nextInt();
         System.out.println("sum = "+(a+b));
+        System.out.println("mult = "+(a*b));
         if(b!=0) {
             System.out.println("division = " + (a / b));
         }else{
