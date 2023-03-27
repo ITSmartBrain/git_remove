@@ -9,6 +9,7 @@ public class Main {
         //белый цвет - закомиченые файлы (сохраненные)
         //синий цвет - в закомиченных файлах произошли изменения, которые пока не закомичены (не сохранены)
         //first
+        //second
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter a: ");
         int a = scn.nextInt();
