@@ -15,6 +15,10 @@ public class Main {
         System.out.print("Enter b: ");
         int b = scn.nextInt();
         System.out.println("sum = "+(a+b));
-        System.out.println("division = "+(a/b));
+        if(b!=0) {
+            System.out.println("division = " + (a / b));
+        }else{
+            System.out.println("На ноль делить нельзя");
+        }
     }
 }
