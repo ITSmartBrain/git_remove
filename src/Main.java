@@ -21,5 +21,6 @@ public class Main {
         }else{
             System.out.println("На ноль делить нельзя");
         }
+        System.out.println("substruction = "+(a-b));
     }
 }
